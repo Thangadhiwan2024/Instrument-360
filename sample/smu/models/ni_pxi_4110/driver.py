@@ -1,7 +1,7 @@
 import nidcpower
 from v1.instruments.smu.hal import SMU, ConnectionState
 
-class NISmuController(SMU):
+class NIPXI4110(SMU):
     def __init__(self, instrument_address: str):
         super().__init__(instrument_address)
         try:
